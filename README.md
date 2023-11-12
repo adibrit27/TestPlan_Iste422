@@ -35,7 +35,7 @@ The test plan outlines the scenarios, success metrics, and details for each clas
 
 ## How to Compile and Run Tests
 1. Ensure JDK [version] and Gradle [version] are installed.
-2. Clone the repository: `git clone [repository_url]`
+2. Clone the repository: `git clone [https://github.com/adibrit27/TestPlan_Iste422.git]`
 3. Navigate to the project directory: `cd [project_directory]`
 4. Run tests: `./gradlew test`.
 
@@ -46,3 +46,8 @@ The test plan outlines the scenarios, success metrics, and details for each clas
 ## Informasi Versi:
 JDK Version: 21.0.1
 Gradle Version: 8.4
+
+## Repository :  
+https://github.com/adibrit27/TestPlan_Iste422.git
+![image](https://github.com/adibrit27/TestPlan_Iste422/assets/143827583/114683ce-5f3c-491a-8a5d-9bb38580d8ad)
+
