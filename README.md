@@ -1,4 +1,4 @@
-# TEst and Plan Project
+# Test and Plan Project
 
 ## Overview Test Plan Project
 This test project is designed to evaluate the functionality of various classes related to database conversion. The primary classes being tested include:
@@ -44,8 +44,8 @@ The test plan outlines the scenarios, success metrics, and details for each clas
 
 
 ## Informasi Versi:
-JDK Version: 21.0.1
-Gradle Version: 8.4
+JDK Version: [21.0.1]
+Gradle Version: [8.4]
 
 ## Repository :  
 https://github.com/adibrit27/TestPlan_Iste422.git
