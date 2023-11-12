@@ -4,17 +4,17 @@ import org.junit.Test;
 
 public class EdgeFieldTest {
 
-    private EdgeField edgeField;  // Fix: Added type declaration
+    private EdgeField edgeField;  
 
     @Before
     public void setUp() {
-        // Inisialisasi objek EdgeField jika diperlukan
+  
         edgeField = new EdgeField("1|FieldName");
     }
 
     @Test
     public void testGetterAndSetter() {
-        // Set nilai untuk diuji
+
         edgeField.setTableID(1);
         edgeField.setTableBound(2);
         edgeField.setFieldBound(3);
@@ -24,7 +24,6 @@ public class EdgeFieldTest {
         edgeField.setVarcharValue(255);
         edgeField.setDataType(1);
 
-        // Periksa getter sesuai dengan nilai yang di-set
         assertEquals(1, edgeField.getNumFigure());
         assertEquals("FieldName", edgeField.getName());
         assertEquals(1, edgeField.getTableID());
@@ -39,9 +38,8 @@ public class EdgeFieldTest {
 
     @Test
     public void testToString() {
-        // Periksa apakah metode toString menghasilkan output yang benar
+
         assertEquals("1|FieldName|1|2|3|1|255|true|true|DefaultValue", edgeField.toString());
     }
 
-    // Tambahkan metode uji lainnya sesuai kebutuhan
 }
